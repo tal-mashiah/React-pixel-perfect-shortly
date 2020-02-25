@@ -1,0 +1,41 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+
+// Basics
+@import "basics/base.scss";
+@import "basics/burger.scss";
+@import "basics/helpers.scss";
+@import "basics/buttons.scss";
+@import "basics/layout.scss";
+@import "basics/typography.scss";
+
+// Components //
+
+// header
+@import "components/header/header.scss";
+@import "components/header/nav-bar.scss";
+@import "components/header/logo.scss";
+
+// about
+@import "components/About/about.scss";
+
+// modal
+@import "components/modal/modal.scss";
+
+// statistic
+@import "components/statistic/statistic.scss";
+@import "components/statistic/statistic-list.scss";
+@import "components/statistic/statistic-preview.scss";
+
+// call-to-action
+@import "components/call-to-action/call-to-action.scss";
+
+// footer
+@import "components/footer/footer.scss";
+@import "components/footer/footer-logo.scss";
+@import "components/footer/social-link.scss";
+@import "components/footer/footer-nav.scss";
+
+// views //

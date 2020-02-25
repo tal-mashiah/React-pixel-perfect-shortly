@@ -1,0 +1,42 @@
+.statistic {
+  min-height: 910px;
+  background-color: #eff1f7;
+  padding: 200px 165px 120px;
+  .statistic-header {
+    text-align: center;
+    margin-bottom: 110px;
+    h4 {
+      color: #34313d;
+      font-family: Poppins-Bold;
+      font-size: 40px;
+      letter-spacing: -1px;
+      line-height: 48px;
+      margin-bottom: 18px;
+    }
+    p {
+      max-width: 540px;
+      color: #9e9aa8;
+      font-size: 18px;
+      letter-spacing: 0.12px;
+      line-height: 32px;
+      margin: auto;
+    }
+  }
+  @include for-mobile-layout {
+    min-height: 1480px;
+    padding: 160px 24px 0;
+    .statistic-header {
+      h4 {
+        font-size: 28px;
+        letter-spacing: -0.7px;
+        margin-bottom: 16px;
+      }
+      p {
+        max-width: 327px;
+        font-size: 16px;
+        letter-spacing: 0.11px;
+        line-height: 28px;
+      }
+    }
+  }
+}

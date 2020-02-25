@@ -1,0 +1,61 @@
+nav {
+  a {
+    font-family: Poppins-Bold;
+    color: #9e9aa8;
+    font-size: 15px;
+  }
+  flex-grow: 15;
+  .links-container {
+    a {
+      margin-left: 30px;
+    }
+  }
+  .login-container {
+    button {
+      margin-left: 35px;
+    }
+  }
+
+  @include for-mobile-layout {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 96px;
+    transform: translate(200%, 0);
+    transition: transform 0.9s;
+    width: 327px;
+    height: 383px;
+    border-radius: 10px;
+    background-color: #3a3054;
+    padding: 40px 24px;
+    z-index: 999;
+    flex-direction: column;
+    .links-container {
+      flex-direction: column;
+      border-bottom: 1px solid #9e9aa880;
+      a {
+        margin-left: initial;
+        margin-bottom: 30px;
+        font-size: 18px;
+        color: #fff;
+      }
+    }
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      a {
+        margin-bottom: 24px;
+        font-size: 18px;
+        color: #fff;
+      }
+      button {
+        width: 279px;
+        height: 48px;
+        border-radius: 28px;
+        margin-left: initial;
+      }
+    }
+  }
+}

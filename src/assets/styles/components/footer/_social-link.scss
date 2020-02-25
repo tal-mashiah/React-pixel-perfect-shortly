@@ -1,0 +1,8 @@
+.social-link {
+  img {
+    cursor: pointer;
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+  }
+}

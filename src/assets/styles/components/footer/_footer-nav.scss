@@ -1,0 +1,28 @@
+.footer-nav {
+  margin-left: 70px;
+  div{
+    min-width: 150px;
+  }
+  h6 {
+    color: #ffffff;
+    font-family: Poppins-Bold;
+    font-size: 16px;
+    letter-spacing: -0.25px;
+    margin-bottom: 22px;
+  }
+  p {
+    color: #bfbfbf;
+    font-size: 15px;
+    letter-spacing: -0.23px;
+    cursor: pointer;
+  }
+  @include for-mobile-layout {
+    flex-direction: column;
+    margin-left: initial;
+    margin-bottom: 10px;
+    div{
+      margin-bottom: 38px;
+    }
+  }
+
+}

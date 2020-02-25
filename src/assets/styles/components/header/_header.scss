@@ -1,0 +1,9 @@
+header {
+  height: $header-height;
+  background-color: #fff;
+  padding: 0 165px;
+  @include for-mobile-layout {
+    padding: 0 25px;
+    height: 120px;
+  }
+}
