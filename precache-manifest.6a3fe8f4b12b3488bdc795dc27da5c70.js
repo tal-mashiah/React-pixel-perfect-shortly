@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "032e02a8fd8281be1f2ff2f16e34be5a",
+    "revision": "3bae35a002c04fd17dbfd37beba926a6",
     "url": "/React-pixel-perfect-shortly/index.html"
   },
   {
-    "revision": "35a3f8e176ae8e0d5e0c",
-    "url": "/React-pixel-perfect-shortly/static/css/main.9c6bf4cd.chunk.css"
+    "revision": "ff3f38f3043b89355ba1",
+    "url": "/React-pixel-perfect-shortly/static/css/main.f3e7831a.chunk.css"
   },
   {
     "revision": "0a76a8484ae955608605",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-pixel-perfect-shortly/static/js/2.8a60090c.chunk.js.LICENSE"
   },
   {
-    "revision": "35a3f8e176ae8e0d5e0c",
+    "revision": "ff3f38f3043b89355ba1",
     "url": "/React-pixel-perfect-shortly/static/js/main.c5a5401f.chunk.js"
   },
   {
