@@ -1,1 +1,0 @@
-# React-pixel-perfect-shortly
