@@ -18,8 +18,6 @@ nav {
 
   @include for-mobile-layout {
     position: fixed;
-    right: 0;
-    left: 0;
     margin: 0 auto;
     top: 96px;
     transform: translate(200%, 0);
